@@ -1,0 +1,10 @@
+CRITICAL - 2022-02-16 11:24:15 --> Invalid file: home.php
+#0 C:\wamp64\www\CODEIGNITER_PROJETO1_3DS-master\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\CODEIGNITER_PROJETO1_3DS-master\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\CODEIGNITER_PROJETO1_3DS-master\app\Controllers\Home.php(9): view('home')
+#3 C:\wamp64\www\CODEIGNITER_PROJETO1_3DS-master\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\wamp64\www\CODEIGNITER_PROJETO1_3DS-master\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\CODEIGNITER_PROJETO1_3DS-master\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\CODEIGNITER_PROJETO1_3DS-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\CODEIGNITER_PROJETO1_3DS-master\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\C...')
+#8 {main}
